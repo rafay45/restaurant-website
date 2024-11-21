@@ -1,0 +1,874 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    border: 1px solid black;
+    border: none;
+    position: relative;
+}
+
+header>img {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 90vh;
+    border: 1px solid black;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    opacity: 0.90;
+    border: none;
+}
+
+nav {
+    width: 100%;
+    border: 1px solid;
+    border: none;
+    display: flex;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 8%;
+}
+
+nav>p {
+    display: inline-block;
+    margin-left: 12%;
+}
+
+nav>p>span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav>ul {
+    margin-left: 16%;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 40px;
+    border: none;
+    list-style-type: none;
+}
+
+nav>button {
+    width: 8%;
+    background-color: #FFC300;
+    border-radius: 6px;
+    border: 1px solid;
+    border: none;
+    margin-left: 8%;
+    height: 65%;
+}
+
+ul>li:hover {
+    cursor: pointer;
+    text-decoration: underline #FFC300;
+}
+
+nav>button:hover {
+    cursor: pointer;
+}
+
+.first {
+    left: 33%;
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+
+.first>p {
+    margin-left: 30px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 4em;
+    text-align: center;
+}
+
+.first>span {
+    font-weight: bolder;
+    font-size: 4em;
+    color: #FFC300;
+}
+
+.para {
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    color: white;
+}
+
+.button {
+    background-color: #FFC300;
+    width: 8%;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.secondbutton {
+    color: #FFC300;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.secondbutton:hover {
+    cursor: pointer;
+    border-color: orange;
+}
+
+.title>p>span {
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+.title>p {
+    font-size: small;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+.menu {
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px;
+    position: absolute;
+    top: 85%;
+    left: 32%;
+}
+
+.home {
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+}
+
+.charges {
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px;
+    position: absolute;
+    top: 85%;
+    left: 54%;
+}
+
+.thirdbutton {
+    background-color: #FFC300;
+    width: 8%;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    margin-left: 60px;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+
+.menu:hover {
+    cursor: pointer;
+    border-color: rgb(255, 136, 0);
+}
+
+.home:hover {
+    cursor: pointer;
+    border-color: rgb(255, 136, 0);
+}
+
+.charges:hover {
+    cursor: pointer;
+    border-color: rgb(255, 136, 0);
+}
+
+.thirdbutton:hover {
+    cursor: pointer;
+}
+
+.container {
+    height: 150vh;
+    width: 100%;
+    background-color: #faf4e1;
+    ;
+    position: relative;
+    border: 1px solid;
+    border: none;
+}
+
+.container>.box {
+    width: 25vw;
+    height: 50vh;
+    border: 1px solid black;
+    top: 6%;
+    left: 25%;
+    position: absolute;
+    border: none;
+}
+
+.container>.box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.secondbox {
+    width: 29vw;
+    height: 42vh;
+    background-color: black;
+    border: 1px solid;
+    top: 20%;
+    left: 46%;
+    position: absolute;
+    opacity: 0.88;
+}
+
+.secondbox>p {
+    color: white;
+    top: 20%;
+    position: relative;
+    left: 10%;
+    font-size: 1.5em;
+}
+
+.secondbox>p>span {
+    color: #FFC300;
+}
+
+.lines>p {
+    color: white;
+    top: 45%;
+    position: absolute;
+    left: 10%;
+}
+
+.secondbox>button {
+    background-color: #FFC300;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.secondbox>button:hover {
+    cursor: pointer;
+}
+
+.paragraph {
+    width: 100%;
+    border: 1px solid;
+    color: black;
+    border: none;
+    padding: 10px;
+    position: relative;
+    top: 55%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paragraph>p>span {
+    font-size: smaller;
+}
+
+.paragraph>p>button {
+    padding: 1%;
+    width: 10vw;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3%;
+}
+
+.paragraph>p>button:hover {
+    cursor: pointer;
+}
+
+.boxes {
+    width: 100%;
+    border: 1px solid;
+    position: absolute;
+    top: 73%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.fourbox {
+    border: 1px solid;
+    border: none;
+    background-color: black;
+    width: 15vw;
+    height: 30vh;
+    position: relative;
+}
+
+.fourbox>span>img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.fourbox>.twopara>p {
+    font-size: larger;
+    color: white;
+    top: 35%;
+    left: 5%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.fourbox>.twopara>span {
+    color: white;
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    font-size: smaller;
+}
+
+.fourbox>.buttom>p>img {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+.fourbox>.buttom>span {
+    font-size: smaller;
+    color: #FFC300;
+    bottom: 8%;
+    position: absolute;
+    left: 14%;
+}
+
+.fivebox {
+    border: 1px solid;
+    border: none;
+    background-color: white;
+    width: 15vw;
+    height: 30vh;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.fivebox>span>img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.fivebox>.twopara>p {
+    font-size: larger;
+    color: black;
+    top: 35%;
+    left: 5%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.fivebox>.twopara>span {
+    color: black;
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    font-size: smaller;
+}
+
+.fivebox>.buttom>p>img {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+.fivebox>.buttom>span {
+    font-size: smaller;
+    color: black;
+    bottom: 8%;
+    position: absolute;
+    left: 14%;
+}
+
+.sixbox {
+    border: 1px solid;
+    border: none;
+    background-color: white;
+    width: 15vw;
+    height: 30vh;
+    position: relative;
+    margin-left: 5%;
+
+}
+
+.sixbox>span>img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.sixbox>.twopara>p {
+    font-size: larger;
+    color: black;
+    top: 35%;
+    left: 5%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.sixbox>.twopara>span {
+    color: black;
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    font-size: smaller;
+}
+
+.sixbox>.buttom>p>img {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+.sixbox>.buttom>span {
+    font-size: smaller;
+    color: black;
+    bottom: 8%;
+    position: absolute;
+    left: 14%;
+}
+
+.discount {
+    width: 100%;
+    border: 1px solid;
+    border: none;
+    height: 52vh;
+    position: relative;
+}
+
+.discount>.eightbox {
+    width: 37vw;
+    height: 25vh;
+    background-color: #FFC300;
+    border: 1px solid;
+    border: none;
+    position: absolute;
+    top: 25%;
+    align-content: center;
+}
+
+.discount>img {
+    width: 190px;
+    height: 355px;
+    z-index: 1;
+    position: absolute;
+    left: 30%;
+    top: -12%;
+}
+
+.discount>.eightbox>p {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+    z-index: 2;
+}
+
+.discount>.information {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.information>.percentage {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.percentage>.head-1>p {
+    font-size: smaller;
+}
+
+.percentage>.head-2>p {
+    font-size: smaller;
+}
+
+.homeservices {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid;
+    position: relative;
+}
+
+.homeservices>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.homeservices>.box-5 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.88;
+}
+
+.homeservices>.row {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+}
+
+.homeservices>.row>.small {
+    font-size: small;
+}
+
+.homeservices>.row>.large {
+    font-size: 1.8em;
+}
+
+.homeservices>.row>.large>p>span {
+    color: #FFC300;
+}
+
+.flexes {
+    width: 100%;
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    top: 40%;
+}
+
+.homeservices>.flexes>.flex {
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    width: 25vw;
+    color: white;
+    left: 22%;
+}
+
+.homeservices>.flexes>.flex>.box-7 {
+    text-align: center;
+    align-content: center;
+    width: 4vw;
+    height: 9vh;
+    border: 1px solid white;
+    border: none;
+    background-color: #FFC300;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.homeservices>.flexes>.flex>.box-7>img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.homeservices>.flexes>.flex>p>span {
+    font-weight: bold;
+
+}
+
+.homeservices>.flexes>.flex>p {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.homeservices>.flexes>.flex-1 {
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    width: 25vw;
+    color: white;
+    left: 55%;
+}
+
+.homeservices>.flexes>.flex-1>.box-8 {
+    width: 4vw;
+    height: 9vh;
+    border: 1px solid white;
+    border: none;
+    background-color: #FFC300;
+    border-radius: 8px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.homeservices>.flexes>.flex-1>.box-8>img {
+    width: 40px;
+    height: 40px;
+padding: 4px;
+}
+
+.homeservices>.flexes>.flex-1>p>span {
+    font-weight: bold;
+
+}
+
+.homeservices>.flexes>.flex-1>p {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.flexess {
+    width: 100%;
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    top: 70%;
+}
+
+.homeservices>.flexess>.flex {
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    width: 25vw;
+    color: white;
+    left: 22%;
+}
+
+.homeservices>.flexess>.flex>.box-7 {
+    width: 4vw;
+    height: 9vh;
+    border: 1px solid white;
+    border: none;
+    background-color: #FFC300;
+    border-radius: 8px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.homeservices>.flexess>.flex>.box-7>img {
+    width: 52px;
+    height: 52px;
+
+}
+
+.homeservices>.flexess>.flex>p>span {
+    font-weight: bold;
+
+}
+
+.homeservices>.flexess>.flex>p {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.homeservices>.flexess>.flex-1 {
+    border: 1px solid white;
+    position: absolute;
+    border: none;
+    height: 10vh;
+    width: 25vw;
+    color: white;
+    left: 55%;
+}
+
+.homeservices>.flexess>.flex-1>.box-8 {
+    width: 4vw;
+    height: 9vh;
+    border: 1px solid white;
+    border: none;
+    background-color: #FFC300;
+    border-radius: 8px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.homeservices>.flexess>.flex-1>.box-8>img {
+    width: 45px;
+    height: 45px;
+padding: 2px;
+}
+
+.homeservices>.flexess>.flex-1>p>span {
+    font-weight: bold;
+
+}
+
+.homeservices>.flexess>.flex-1>p {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.overviews {
+    width: 100%;
+    height: 70vh;
+    border-bottom: 4px solid #FFC300;
+    background-color: #faf4e1;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.overviews>p{
+    padding-top: 3%;
+}
+
+.pfp {
+    border: 1px solid;
+    border: none;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp>.box-10 {
+    border: 1px solid;
+    border: none;
+    background-color: white;
+    width: 17vw;
+    height: 30vh;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.pfp>.box-10>img {
+    border: 4px solid white;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    margin-top: -28%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+}
+.allinfo{
+    width: 100%;
+    height: 80%;
+    border: 2px solid white;
+    border: none;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    color: white;
+}
+.project>.heading-1>span{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.project>.heading-1{
+    color: #FFC300;
+}
+.bulb{
+    display: flex;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+}
+.contactus>.social{
+    display: flex;
+    gap: 7%;
+}
+.contactus>.social:hover{
+    cursor: pointer;
+}
+.contactus>.social>.box-13{
+width: 2.5vw;
+height: 5.5vh;
+background-color: #FFC300;
+border: 1px solid;
+border-radius: 100px;
+border: none;
+text-align: center;
+align-content: center;
+}
+.lastpara{
+    padding: 10px;
+    border: 1px solid;
+    border: none;
+    width: 100% ;
+    text-align: center;
+}
+.lastpara>p{
+    display: inline-block;
+    border-top: 5px solid rgb(71, 70, 70);
+  padding: 1% 25% 1% 25%;
+}
